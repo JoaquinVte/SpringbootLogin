@@ -19,6 +19,7 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue
     Integer id;
+
     @Basic
     @Column(nullable = false)
     String username;
